@@ -1,0 +1,37 @@
+
+alanbury@DESKTOP-M6AFH27:~$ echo hello world
+hello world
+alanbury@DESKTOP-M6AFH27:~$ passwd
+Changing password for alanbury.
+(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+alanbury@DESKTOP-M6AFH27:~$ date
+Wed Jan 10 00:36:24 DST 2018
+alanbury@DESKTOP-M6AFH27:~$ hostname
+DESKTOP-M6AFH27
+alanbury@DESKTOP-M6AFH27:~$ arch
+x86_64
+alanbury@DESKTOP-M6AFH27:~$ uname -a
+Linux DESKTOP-M6AFH27 4.4.0-43-Microsoft #1-Microsoft Wed Dec 31 14:42:53 PST 2014 x86_64 x86_64 x86_64 GNU/Linux
+alanbury@DESKTOP-M6AFH27:~$ dmesg
+dmesg: read kernel buffer failed: Function not implemented
+alanbury@DESKTOP-M6AFH27:~$ uptime
+ 00:37:07 up 1 min,  0 users,  load average: 0.52, 0.58, 0.59
+alanbury@DESKTOP-M6AFH27:~$ who am i
+alanbury@DESKTOP-M6AFH27:~$ whoami
+alanbury
+alanbury@DESKTOP-M6AFH27:~$ who
+alanbury@DESKTOP-M6AFH27:~$ id
+uid=1000(alanbury) gid=1000(alanbury) groups=1000(alanbury),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),109(netdev),110(lxd)
+alanbury@DESKTOP-M6AFH27:~$ last
+
+wtmp begins Fri Sep 22 23:15:02 2017
+alanbury@DESKTOP-M6AFH27:~$ finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+alanbury@DESKTOP-M6AFH27:~$ w
+ 00:37:43 up 1 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+alanbury@DESKTOP-M6AFH27:~$
