@@ -1,0 +1,125 @@
+alanbury@DESKTOP-M6AFH27:~$ grep "list"
+^C
+alanbury@DESKTOP-M6AFH27:~$ grep -r "list"
+testlist.txt:testing list
+alanbury@DESKTOP-M6AFH27:~$ wc -l
+
+
+
+^C
+alanbury@DESKTOP-M6AFH27:~$ wc etc/passwd
+wc: etc/passwd: No such file or directory
+alanbury@DESKTOP-M6AFH27:~$ wc /etc/passwd
+  31   43 1616 /etc/passwd
+alanbury@DESKTOP-M6AFH27:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:        8269988     3283696     4749816       17720      236476     4845436
+Swap:      19806844           0    19806844
+alanbury@DESKTOP-M6AFH27:~$ cat /proc/cpuinfo
+processor       : 0
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 158
+model name      : Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+stepping        : 9
+microcode       : 0xffffffff
+cpu MHz         : 2501.000
+cache size      : 256 KB
+physical id     : 0
+siblings        : 4
+core id         : 0
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 6
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips        : 5002.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+processor       : 1
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 158
+model name      : Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+stepping        : 9
+microcode       : 0xffffffff
+cpu MHz         : 2501.000
+cache size      : 256 KB
+physical id     : 0
+siblings        : 4
+core id         : 1
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 6
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips        : 5002.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+processor       : 2
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 158
+model name      : Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+stepping        : 9
+microcode       : 0xffffffff
+cpu MHz         : 2501.000
+cache size      : 256 KB
+physical id     : 0
+siblings        : 4
+core id         : 2
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 6
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips        : 5002.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+processor       : 3
+vendor_id       : GenuineIntel
+cpu family      : 6
+model           : 158
+model name      : Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz
+stepping        : 9
+microcode       : 0xffffffff
+cpu MHz         : 2501.000
+cache size      : 256 KB
+physical id     : 0
+siblings        : 4
+core id         : 3
+cpu cores       : 4
+apicid          : 0
+initial apicid  : 0
+fpu             : yes
+fpu_exception   : yes
+cpuid level     : 6
+wp              : yes
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave osxsave avx f16c rdrand
+bogomips        : 5002.00
+clflush size    : 64
+cache_alignment : 64
+address sizes   : 36 bits physical, 48 bits virtual
+power management:
+
+alanbury@DESKTOP-M6AFH27:~$ find -type f -name *.jpg|wc -l
+0
+alanbury@DESKTOP-M6AFH27:~$
