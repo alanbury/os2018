@@ -1,0 +1,21 @@
+alanbury@alanbury-VirtualBox:~$ ps man
+  PID TTY      STAT   TIME COMMAND
+  840 tty7     -      0:36 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/ru
+    - -        Ssl+   0:30 -
+    - -        Ssl+   0:06 -
+ 1349 tty1     -      0:00 /sbin/agetty --noclear tty1 linux
+    - -        Ss+    0:00 -
+ 2136 pts/4    -      0:00 bash
+    - -        Ss     0:00 -
+ 2154 pts/17   -      0:00 bash
+    - -        Ss+    0:00 -
+ 2164 pts/4    -      0:00 ps man
+    - -        R+     0:00 -
+alanbury@alanbury-VirtualBox:~$ gnome-calculator
+alanbury@alanbury-VirtualBox:~$ ps -a|grep "gnome-calculato"
+ 2166 pts/4    00:00:00 gnome-calculato
+alanbury@alanbury-VirtualBox:~$ kill -STOP 2166
+alanbury@alanbury-VirtualBox:~$ kill -CONT 2166
+alanbury@alanbury-VirtualBox:~$ kill -KILL 2166
+alanbury@alanbury-VirtualBox:~$ 
+
