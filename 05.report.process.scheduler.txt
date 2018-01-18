@@ -1,0 +1,12 @@
+alanbury@alanbury-VirtualBox:~$ cat /proc/sched_debug|grep systemd
+         systemd     1       473.163483      1786   120         0.000000      1238.466595         0.000000 /autogroup-2
+ systemd-journal   223       158.028717       680   120         0.000000       159.321482         0.000000 /autogroup-5
+   systemd-udevd   233      2434.306464       878   120         0.000000       228.016972         0.000000 /autogroup-10
+ systemd-timesyn   340        13.556318        27   120         0.000000        14.680945         0.000000 /autogroup-25
+  systemd-logind   655        20.172276       266   120         0.000000        21.221015         0.000000 /autogroup-36
+         systemd   987        37.192661        33   120         0.000000        34.861200         0.000000 /autogroup-66
+alanbury@alanbury-VirtualBox:~$ cat /proc/1/sched|grep switch
+nr_switches                                  :                 1811
+nr_voluntary_switches                        :                  977
+nr_involuntary_switches                      :                  834
+
