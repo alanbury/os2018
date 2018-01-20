@@ -1,0 +1,6 @@
+alanbury@alanbury-VirtualBox:~$ cat /proc/sched_debug|grep fire
+         firefox  1818     30342.697516      5686   120         0.000000      2913.626376         0.000000 /autogroup-116
+alanbury@alanbury-VirtualBox:~$ ps -o nlwp 1818
+NLWP
+  41
+
