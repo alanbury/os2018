@@ -1,0 +1,81 @@
+1 Gantt chart:
+	
+	FCFS:
+		p1 --------
+		p2         ----
+		p3             -
+		p4              -----
+
+	SJF:
+		p1           --------
+		p2  ----
+		p3 -
+		p4      -----
+
+	STRF:
+		p1 -          -------
+		p2  - ---
+		P3   -
+		p4       -----
+
+	RR:
+		p1 -   -  -  -  - ---
+		p2  -   -  -  -   
+		p3   -            
+		p4    -  -  -  - -
+2 Waiting time 
+	FCFS:
+		wp1 0
+		wp2 7.6
+		wp3 11
+		wp4 11.7
+		Avrg:  7.575
+
+	SJF:
+	    wp1	10
+	    wp2 0.6
+	    wp3 0
+	    wp4 3.7
+	    Avrg: 3.575
+
+	STRF:
+		wp1 10
+		wp2 1.6
+		wp3 1
+		wp4 4.7
+		Avrg: 4.325
+
+	RR:
+		wp1: 10
+		wp2: 7.6
+		wp3: 1
+		wp4: 8.7
+		Avrg: 6.825
+
+3 Turn around time:
+	FCFS:
+		tp1: 8
+		tp2: 11.6
+		tp3: 12
+		tp4: 16.7
+		Avrg: 12.075
+	SJF:
+		tp1: 18
+		tp2: 4.6
+		tp3: 1
+		tp4: 8.7 
+		Avrg: 8.075
+
+	STRF:
+		tp1: 18
+		tp2: 5.6
+		tp3: 2
+		tp4: 9.7
+		Avrg: 8.825
+
+	RR:
+		tp1: 18
+		tp2: 11.6
+		tp3: 2
+		tp4: 13.7
+		Avrg: 11.325
